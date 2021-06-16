@@ -212,7 +212,9 @@ Add L1 regularizer on bases of subspace:
 * Hyperparameters
     * $\lambda_1=0.03$: Weight of discriminative term in loss function (identical to official setting of paper).
     * $\lambda_2=0.001$: Weight of sparsity term in loss function.
-
+    * How I trained my models on task CDFSL-Multi
+        * I changed the training dataset every epoch
+          (epoch1: dataset1, epoch2: dataset2, epoch3: dataset1, ...)
 ----
 
 #### Training Curve
