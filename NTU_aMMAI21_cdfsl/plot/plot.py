@@ -25,7 +25,7 @@ if __name__ == '__main__':
                         imgnet = np.arange(0, 300, 2)
                         crop = np.arange(1, 300, 2)
                         ax[i].plot(imgnet, data[imgnet, 1], COLORS[method][0], label=f'{method}: ImageNet')
-                        ax[i].plot(crop, data[crop, 1], COLORS[method][1], label=f'{method}: CropDisease')
+                        ax[i].plot(crop, data[crop, 1], COLORS[method][1], label=f'{method}: Cifar100')
                         ax[i].legend()
             except Exception as e:
                 print(e)
